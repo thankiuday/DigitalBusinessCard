@@ -1,0 +1,27 @@
+node_modules/
+**/node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Logs / caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
